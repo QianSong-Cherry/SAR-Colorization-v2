@@ -3,7 +3,8 @@ This repository provides a brief guideline of using SAR image colorization netwo
 - More detail information about the network as well as how it works at [here](https://ieeexplore.ieee.org/document/8141881)
 - Contact me at [songq15@fudan.edu.cn](songq15@fudan.edu.cn)
 
-## Prerequisites
+## System requirements
+- Windows 7
 - Python 3.6+
 - [Tensorflow](https://www.tensorflow.org/)
 - [SciPy](http://www.scipy.org/install.html)
@@ -11,7 +12,7 @@ This repository provides a brief guideline of using SAR image colorization netwo
 - h5py
 
 ## Datasets
-Two sample data (both smaller than 100M) are used in this repo to show how we organize the data.
+Two sample data (both smaller than 100M) are used in this repo to show how we organize the data. Note that due to the limited number of training data, the learned model may not be that useful.
 - Training: C_SH.mat
 - Test: C_NJ.mat
 - VGG16 model: download it at [here](https://pan.baidu.com/s/1cJdZZx--nZSJFxTAoJEH5w) and store it in './data/'.

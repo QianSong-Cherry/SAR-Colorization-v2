@@ -21,8 +21,8 @@ Two sample data (both smaller than 100M) are used in this repo to show how we or
 In this repo, full-pol data is represented by covariance matrix, which has a shape of `3*3*M*N`. Use `pre_data_tf` to extract the full-pol features as well as the input data of the network. Note that for test, only the input data is needed, thus use the function `pre_test_data_tf` instead.
 
 ## Training and test the model
-- To train the model: `python train.py`
-- To test the model: `python train.py --is_train=False --data="./data/data_NJ.mat"`
+- To train the model: `python main.py`
+- To test the model: `python main.py --is_train=False --data="./data/data_NJ.mat"`
 
 ## Reconstruction
 Use the function `Recons_from_feature` to recover the covariance matrix from predicted full-pol data.

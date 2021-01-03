@@ -15,7 +15,7 @@ This repository provides a brief guideline of using SAR image colorization netwo
 Two sample data (both smaller than 100M) are used in this repo to show how we organize the data. Note that due to the limited number of training data, the learned model may not be that useful.
 - Training: C_SH.mat
 - Test: C_NJ.mat
-- VGG16 model: download it at [here](https://pan.baidu.com/s/1cJdZZx--nZSJFxTAoJEH5w) and store it in './data/'.
+- VGG16 model: download it at [here](https://drive.google.com/file/d/1ZxmZSmLOiYyXZxZrh3aTudRLF8uvv7le/view?usp=sharing) and store it in './data/'.
 
 ## Prepare training data
 In this repo, full-pol data is represented by covariance matrix, which has a shape of `3*3*M*N`. Use `pre_data_tf` to extract the full-pol features as well as the input data of the network. Note that for test, only the input data is needed, thus use the function `pre_test_data_tf` instead.
